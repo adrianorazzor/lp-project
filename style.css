@@ -14,11 +14,11 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0 10vw 0 10vw;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .logo {
-    width: 100px;
+    width: 80px;
     padding: 0px;
     margin: 15px;
 }
@@ -107,7 +107,7 @@ p.hero-main-text {
 }
 
 .feature-img {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -156,10 +156,6 @@ h2 {
     gap: 30px;
 }
 
-.cta {
-    padding: 0px;
-}
-
 .cta p {
     padding: 0px;
     margin-bottom: 0px;
@@ -178,4 +174,21 @@ strong {
     padding: 10px 25px;
     font-size: 15px;
     font-weight: 700;
+}
+
+.button-transparent:hover {
+    border: 1px #2F5BB7 solid;
+    box-shadow: 0 1px 1px #3079ED solid, inset 0 1px 0 #5A94F1;
+    background: #3F83F1;
+}
+
+.button-transparent:active {
+    box-shadow: inset 0 2px 5px #2370FE;   
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
 }
